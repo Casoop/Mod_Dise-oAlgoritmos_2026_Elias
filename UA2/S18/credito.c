@@ -20,7 +20,7 @@ int main(void) {
     printf("Cuota mensual del credito: ");
     scanf("%lf", &cuota);
     printf("Tiene deudas atrasadas? (S/N) ");
-    scanf(" %c", &respDeudas);
+    scanf(" %c", &respDeudas);//El espacio evita la presencia de errores
     printf("Anios de antiguedad laboral: ");
     scanf("%d", &antiguedad);
     printf("Tiene fiador? (S/N) ");
