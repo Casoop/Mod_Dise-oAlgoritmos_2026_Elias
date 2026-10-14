@@ -40,4 +40,5 @@ int main(void) {
 
         printf ("\n");                              //Fin de la fila
     }
+    return 0;
 }
