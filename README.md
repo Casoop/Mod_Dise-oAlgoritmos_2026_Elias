@@ -114,7 +114,7 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 |   S17   | Variables, constantes y entrada/salida       | Aprendí sobre como se crean y llaman las variables y constantes en C        |            [ver](UA2/S17/S17.png)            |   ⬜   |
 |   S18   | Operadores, casting e if … else              | Aprendí sobre los operadores, relacionales y lógicos, asi como su prioridad |            [ver](UA2/S18/S18.png)            |   ⬜   |
 |   S19   | Ciclos y switch                              | Aprendí sobre ciclo while, do while y switch                                |            [ver](UA2/S19/S19.png)            |   ⬜   |
-|   S20   | Arreglos, matrices y cadenas                 |                                                                             |               [ver](UA2/S20/)                |   ⬜   |
+|   S20   | Arreglos, matrices y cadenas                 | Aprendí sobre vectores y matrices                                           |            [ver](UA2/S20/S20.png)            |   ⬜   |
 |   S21   | Funciones                                    |                                                                             |               [ver](UA2/S21/)                |   ⬜   |
 |   S22   | Paso de parámetros por valor y por dirección |                                                                             |               [ver](UA2/S22/)                |   ⬜   |
 | S23–S24 | **Actividad de comprobación 2**              |                                                                             | [ver](actividades/A2_Mi_primera_aplicacion/) |   ⬜   |
