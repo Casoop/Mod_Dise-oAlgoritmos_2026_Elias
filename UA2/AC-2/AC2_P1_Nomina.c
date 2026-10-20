@@ -11,7 +11,10 @@
 Use constantes (#define o const) para las tasas y para el límite de 800, fgets para el nombre, strlen para revisar que no esté vacío y un do … while para validar el salario.*/
 
 /*¿Que se logra?
-Demostrar el domino sobre el uso de constantes, fgets, strlen y los ciclos do...while*/
+Demostrar el domino sobre el uso de constantes, fgets, strlen y los ciclos do...while
+
+¿Como se logra?
+Usando constantes para las cajas, fgets para obtener el nombre con espacios, strlen para calidar que al menos se introdujo un caracter (nombreCompleto NO esta vacio) y 2 ciclos do.. while para validar las entradas*/
 
 //AC2_P1_Nomina.c - Sistema de cálculo de nómina
 #include<stdio.h>   //Entradas y salidas
@@ -34,16 +37,24 @@ int main (void){
     
     //ENTRADA
     printf("=== Calculo de nomina ===\n");
-    printf("Empleado: ");
-    fgets(nombreCompleto, sizeof(nombreCompleto), stdin);   //Usar  fgets permite incluir espacios
-    nombreCompleto[strcspn(nombreCompleto, "\n")] = '\0';   //Elimina el enter
 
+    do {
+        printf("Empleado: ");
+        fgets(nombreCompleto, sizeof(nombreCompleto), stdin);   //Usar  fgets permite incluir espacios
+        nombreCompleto[strcspn(nombreCompleto, "\n")] = '\0';   //Elimina el enter
+
+        if (strlen(nombreCompleto) < 1) {
+            printf("ERROR: El nombre del empleado no puede estar vacio\n");
+        }
+        
+    } while (strlen(nombreCompleto) < 1);                       //En caso de que se introduzca menos de un caracter se entra en un bucle
+    
     do {
         printf("Salario bruto: ");
         scanf("%lf", &salarioBruto);    //Dato esperado: 1000
 
         if (salarioBruto <= 0) {    //En caso de que Se introduzca un numero fuera del rango se muestra el mensaje de error
-            printf("ERROR: El salario del empleado no puede ser menor a 1");
+            printf("ERROR: El salario del empleado no puede ser menor a 1\n");
         }
         
     } while (salarioBruto <= 0);    //Permanecera en un bucle mientras se ponga un valor que no sea 1 o superior
