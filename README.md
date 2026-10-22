@@ -106,18 +106,18 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 <details open>
 <summary><b>Unidad 2 · Programación estructurada en C</b> (sesiones 14 a 24)</summary>
 
-| Sesión  | Tema                                         | Qué aprendí                                                                 |                  Evidencia                   | Estado |
-| :-----: | :------------------------------------------- | :-------------------------------------------------------------------------- | :------------------------------------------: | :----: |
-|   S14   | Sistemas numéricos                           | Aprendí sistemas numericos: decimal, binario, octal y hexadecimal           |            [ver](UA2/S14/S14.png)            |   ⬜   |
-|   S15   | Control de versiones con git y GitHub        | Refresque conocimientos respecto al repositorio git                         |            [ver](UA2/S15/S15.png)            |   ⬜   |
-|   S16   | Formato de un programa en C y compilación    | Aprendí sobra la sintaxis y anatomia de un codigo escrito en C              |            [ver](UA2/S16/S16.png)            |   ⬜   |
-|   S17   | Variables, constantes y entrada/salida       | Aprendí sobre como se crean y llaman las variables y constantes en C        |            [ver](UA2/S17/S17.png)            |   ⬜   |
-|   S18   | Operadores, casting e if … else              | Aprendí sobre los operadores, relacionales y lógicos, asi como su prioridad |            [ver](UA2/S18/S18.png)            |   ⬜   |
-|   S19   | Ciclos y switch                              | Aprendí sobre ciclo while, do while y switch                                |            [ver](UA2/S19/S19.png)            |   ⬜   |
-|   S20   | Arreglos, matrices y cadenas                 | Aprendí sobre vectores y matrices                                           |            [ver](UA2/S20/S20.png)            |   ⬜   |
-|   S21   | Funciones                                    |                                                                             |               [ver](UA2/S21/)                |   ⬜   |
-|   S22   | Paso de parámetros por valor y por dirección |                                                                             |               [ver](UA2/S22/)                |   ⬜   |
-| S23–S24 | **Actividad de comprobación 2**              |                                                                             | [ver](actividades/A2_Mi_primera_aplicacion/) |   ⬜   |
+| Sesión  | Tema                                         | Qué aprendí                                                                 |           Evidencia           | Estado |
+| :-----: | :------------------------------------------- | :-------------------------------------------------------------------------- | :---------------------------: | :----: |
+|   S14   | Sistemas numéricos                           | Aprendí sistemas numericos: decimal, binario, octal y hexadecimal           |    [ver](UA2/S14/S14.png)     |   ✅   |
+|   S15   | Control de versiones con git y GitHub        | Refresque conocimientos respecto al repositorio git                         |    [ver](UA2/S15/S15.png)     |   ✅   |
+|   S16   | Formato de un programa en C y compilación    | Aprendí sobra la sintaxis y anatomia de un codigo escrito en C              |    [ver](UA2/S16/S16.png)     |   ✅   |
+|   S17   | Variables, constantes y entrada/salida       | Aprendí sobre como se crean y llaman las variables y constantes en C        |    [ver](UA2/S17/S17.png)     |   ✅   |
+|   S18   | Operadores, casting e if … else              | Aprendí sobre los operadores, relacionales y lógicos, asi como su prioridad |    [ver](UA2/S18/S18.png)     |   ✅   |
+|   S19   | Ciclos y switch                              | Aprendí sobre ciclo while, do while y switch                                |    [ver](UA2/S19/S19.png)     |   ✅   |
+|   S20   | Arreglos, matrices y cadenas                 | Aprendí sobre vectores y matrices                                           |    [ver](UA2/S20/S20.png)     |   ✅   |
+|   S21   | Funciones                                    |                                                                             |        [ver](UA2/S21/)        |   ⬜   |
+|   S22   | Paso de parámetros por valor y por dirección |                                                                             |        [ver](UA2/S22/)        |   ⬜   |
+| S23–S24 | **Actividad de comprobación 2**              | Demostre el conocimiento sobre variables, constantes, ciclos y arreglos     | [ver](UA2/AC-2/Problema1.png) |   ✅   |
 
 </details>
 
