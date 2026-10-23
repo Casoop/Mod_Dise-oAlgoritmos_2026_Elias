@@ -85,21 +85,21 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 <details>
 <summary><b>Unidad 1 · Elaboración de algoritmos en PSeInt</b> (sesiones 1 a 13)</summary>
 
-| Sesión | Tema                                              | Qué aprendí                                                                      |                Evidencia                 | Estado |
-| :----: | :------------------------------------------------ | :------------------------------------------------------------------------------- | :--------------------------------------: | :----: |
-|  S01   | Lógica computacional, compilador e intérprete     | Trabajamos temas teóricos sobre lógica computacional, compiladores e interpretes |             [ver](UA1/S01/)              |   ⬜   |
-|  S02   | Algoritmos y pseudocódigo                         |                                                                                  |             [ver](UA1/S02/)              |   ⬜   |
-|  S03   | Lenguajes de alto y bajo nivel                    |                                                                                  |             [ver](UA1/S03/)              |   ⬜   |
-|  S04   | Metodología de solución de problemas              |                                                                                  |             [ver](UA1/S04/)              |   ⬜   |
-|  S05   | Entrada, proceso, salida y tipos de datos         |                                                                                  |             [ver](UA1/S05/)              |   ⬜   |
-|  S06   | Constantes, variables y expresiones               |                                                                                  |             [ver](UA1/S06/)              |   ⬜   |
-|  S07   | Contadores y acumuladores                         |                                                                                  |             [ver](UA1/S07/)              |   ⬜   |
-|  S08   | Expresiones aritméticas, relacionales y lógicas   |                                                                                  |             [ver](UA1/S08/)              |   ⬜   |
-|  S09   | Operadores aritméticos y prioridad                |                                                                                  |             [ver](UA1/S09/)              |   ⬜   |
-|  S10   | Decisión simple y doble                           |                                                                                  |             [ver](UA1/S10/)              |   ⬜   |
-|  S11   | Operadores lógicos, decisiones compuestas y Según |                                                                                  |             [ver](UA1/S11/)              |   ⬜   |
-|  S12   | Ciclos, validación de datos e informe             |                                                                                  |             [ver](UA1/S12/)              |   ⬜   |
-|  S13   | **Actividad de comprobación 1**                   |                                                                                  | [ver](actividades/A1_Analisis_problema/) |   ⬜   |
+| Sesión | Tema                                              | Qué aprendí                                                                      |           Evidencia           | Estado |
+| :----: | :------------------------------------------------ | :------------------------------------------------------------------------------- | :---------------------------: | :----: |
+|  S01   | Lógica computacional, compilador e intérprete     | Trabajamos temas teóricos sobre lógica computacional, compiladores e interpretes |        [ver](UA1/S01/)        |   ⬜   |
+|  S02   | Algoritmos y pseudocódigo                         |                                                                                  |        [ver](UA1/S02/)        |   ⬜   |
+|  S03   | Lenguajes de alto y bajo nivel                    |                                                                                  |        [ver](UA1/S03/)        |   ⬜   |
+|  S04   | Metodología de solución de problemas              |                                                                                  |        [ver](UA1/S04/)        |   ⬜   |
+|  S05   | Entrada, proceso, salida y tipos de datos         |                                                                                  |        [ver](UA1/S05/)        |   ⬜   |
+|  S06   | Constantes, variables y expresiones               |                                                                                  |        [ver](UA1/S06/)        |   ⬜   |
+|  S07   | Contadores y acumuladores                         |                                                                                  |        [ver](UA1/S07/)        |   ⬜   |
+|  S08   | Expresiones aritméticas, relacionales y lógicas   |                                                                                  |        [ver](UA1/S08/)        |   ⬜   |
+|  S09   | Operadores aritméticos y prioridad                |                                                                                  |        [ver](UA1/S09/)        |   ⬜   |
+|  S10   | Decisión simple y doble                           |                                                                                  |        [ver](UA1/S10/)        |   ⬜   |
+|  S11   | Operadores lógicos, decisiones compuestas y Según |                                                                                  |        [ver](UA1/S11/)        |   ⬜   |
+|  S12   | Ciclos, validación de datos e informe             |                                                                                  |        [ver](UA1/S12/)        |   ⬜   |
+|  S13   | **Actividad de comprobación 1**                   |Aprendí a demostrar lo aprendido durante el primer módulo (Diseño de algoritmos) en distintos escenarios de acuerdo a lo planteado por el docente.| [ver](UA1/AC-1/Problema3.png) |   ✅   |
 
 </details>
 
