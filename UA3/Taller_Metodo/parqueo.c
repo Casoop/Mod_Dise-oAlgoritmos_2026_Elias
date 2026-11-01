@@ -35,7 +35,7 @@ Un sistema infalible que puede mantener el funcionamiento de una empresa, en est
 #define OP_MAX 3        //Maximo aceptado para las opciones
 
 // Prototipo de funciones
-int validacionOpcion(int minimo, int maximo);
+void validacionOpcion(int minimo, int maximo, int *pOpcion);
 double validacionHoras(int minimo, int maximo);
 double calculoTarifa(int entrada, double tiempo);
 
@@ -43,6 +43,7 @@ int main(void)
 {
     // Definición de variables
     int opcion;             //Entero que guarda la opcion digitada por el usuario
+    int *pOpcion = &opcion; //Puntero que apunta a la variable opcion
     double horas[MAX_V];    //Arreglo que almacena hasta 10 cantidades de horas
     char placas[MAX_V][10]; //Arreglo que almacena hasta 10 placas de 10 caracteres
     double cobro[MAX_V];    //Arreglo que almacena hasta 10 cobros distintos
@@ -58,9 +59,9 @@ int main(void)
     printf("===== Registro de vehiculos (Parqueo) =====\n");
     for (i = 0; i < MAX_V; i++) {
         //llamada de función: validacionOpcion
-        opcion = validacionOpcion(OP_MIN, OP_MAX);  //Validara opciones del 0 al 3, y retornara una opcion valida
+        validacionOpcion(OP_MIN, OP_MAX, &opcion);  //Validara opciones del 0 al 3, y retornara una opcion valida, 
 
-        if (opcion == 0) {break;}                   //En caso de que la opcion retornada sea 0, rompe el ciclo for         
+        if (*pOpcion == 0) {break;}                   //En caso de que la opcion retornada sea 0, rompe el ciclo for         
             
         // =========================================
 
@@ -110,9 +111,7 @@ int main(void)
 
 
 //Definición de función: validacionOpcion
-int validacionOpcion(int minimo, int maximo){
-    int entrada = 0;
-    
+void validacionOpcion(int minimo, int maximo, int *pOpcion){
     printf("-------------------------------------------\n");
     printf("1.Moto - 500 por hora\n");
     printf("2.Auto - 800 por hora\n");
@@ -121,14 +120,12 @@ int validacionOpcion(int minimo, int maximo){
 
     do {
         printf("Ingrese el tipo de vehiculo: ");
-        scanf("%d", &entrada);
+        scanf("%d", pOpcion);
 
-        if (entrada < minimo || entrada > maximo) {
+        if (*pOpcion < minimo || *pOpcion > maximo) {
             printf("ERROR: Dato invalido, por favor ingrese una opcion (0-3)\n");
         }
-    } while (entrada < minimo || entrada > maximo);
-
-    return entrada;
+    } while (*pOpcion < minimo || *pOpcion > maximo);
 }
 
 
