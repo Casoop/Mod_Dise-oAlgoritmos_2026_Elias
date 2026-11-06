@@ -4,8 +4,10 @@
 
 int buscar(const char nombres[][15], int n, const char buscado[]) {
     int i;
-    
-    for (i = 0; i <= n; i++)
+    //ERROR: Se sigue el ciclo for despues de recorrer el arreglo
+    //POR QUE: debido a la presencia de un <= lo que hacia que se verificara hasta i = 4, en lugar de i = 3, (ya que for en este caso iria de 0 a 3)
+    //CORRECCION: se cambia el i <= n por un i < n
+    for (i = 0; i < n; i++)
         //ERROR: Sin importar que siempre se mostraba: No existe 
         //POR QUE: Se realizaban comparaciones con el elemento incorrecto ==
         //CORRECCION: Se cambia el igual por strcmp, de la libreria string, especifica para comparar texto
