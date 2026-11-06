@@ -13,7 +13,7 @@ Codigo  Nombre  Viajes
 
 //Definir las constantes
 #define MAX_PASES 5     //espacios disponibles para pases
-#define TAM_NOMBRE 5    //19 caracteres o letras + el \0
+#define TAM_NOMBRE 20    //19 caracteres o letras + el \0
 #define COD_MIN 100     //codigo minimo
 #define COD_MAX 999     //codigo maxmimo
 #define VIAJES_MAX 999  //vijes maxmimos
@@ -63,12 +63,12 @@ int main(void) {
             if (n == MAX_PASES) {
                 printf("No hay espacio para mas pases\n");
                 break;  //sale para volver al menu
-            
-                //lee codigo con entero
-                codigo = leerEntero("Codigo", COD_MIN, COD_MAX);
-                //revisar si el codigo existe
-                if (buscarCodigo(cod, activo, n, codigo) != -1)
-                break;  //sale para no incluir al repetido
+            }
+            //lee codigo con entero
+            codigo = leerEntero("Codigo", COD_MIN, COD_MAX);
+            //revisar si el codigo existe
+            if (buscarCodigo(cod, activo, n, codigo) != -1){
+            break;  //sale para no incluir al repetido
             }
             //pide nombre
             printf("Nombre (una palabra): ");
@@ -158,12 +158,12 @@ void consultar(const int cod[], const char nom[][TAM_NOMBRE], const int viajes[]
     int i, activos = 0;
 
     //encabezado de la tabla
-    printf("%-6s %-12s %6s\n", "Codigo", "Nombre", "Viajes disponibles");
+    printf("%-6s %-12s %18s\n", "Codigo", "Nombre", "Viajes disponibles");
     //recorrer los espacios usados
     for (i = 0; i < n; i++) {
         //solo activos
         if (activo[i] == 1) {
-            printf("%-6d %-12s %6d\n", cod[i], viajes[i]);
+            printf("%-6d %-12s %6d\n", cod[i], nom [i], viajes[i]);
             //cuenta pases
             activos++;
         }
