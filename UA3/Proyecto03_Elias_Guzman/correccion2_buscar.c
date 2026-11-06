@@ -4,8 +4,12 @@
 
 int buscar(const char nombres[][15], int n, const char buscado[]) {
     int i;
+    
     for (i = 0; i <= n; i++)
-        if (nombres[i] == buscado)
+        //ERROR: Sin importar que siempre se mostraba: No existe 
+        //POR QUE: Se realizaban comparaciones con el elemento incorrecto ==
+        //CORRECCION: Se cambia el igual por strcmp, de la libreria string, especifica para comparar texto
+        if (strcmp(nombres[i], buscado) == 0)
             return i;
     return -1;
 }
